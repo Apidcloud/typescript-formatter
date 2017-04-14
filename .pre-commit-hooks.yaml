@@ -7,10 +7,9 @@
 #     hooks:
 #     -   id: tsfmt
 
--   id: tsfmt
-    name: TypeScript Formatter (tsfmt)
+-   id:          tsfmt
+    name:        TypeScript Formatter (tsfmt)
     description: TypeScript code auto-formatter.
-    entry: tsfmt
-		args: ['--verify']
-    language: node
-    files: \.tsx?$
+    entry:       tsfmt --verify
+    language:    node
+    files:       \.tsx?$
